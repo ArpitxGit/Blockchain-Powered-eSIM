@@ -6,7 +6,9 @@
     - Our role is to provide the end users with a novel way of using eSIM services that enables them to do more than just communicate.
     - This also provides users the option to use a network without trusting the network provider.
 
-# User Authentication/Onboarding
+## Three main touchpoints:
+
+# 1) User Authentication/Onboarding
 
 - First step user need to take to avail this service
     - User will buy an eSIM from existing telecom operators by providing their KYC and preferred wallet address(if they have one) and that’s it!
@@ -27,7 +29,7 @@ The current communication technology that allows communication between two users
 
 Now that we know what kinds of network packets we need to create as part of this communication protocol, we move to the device.
 
-# Establishing secure connection to device through LPA
+# 2) Establishing secure connection to device through LPA
 
 - The Local Profile Assistant (LPA),
          A software component that runs on the device and interacts with eSIM chip.
@@ -56,9 +58,9 @@ Now that we know what kinds of network packets we need to create as part of this
             - This layer verifies that the transactions were initiated or executed by the owner of the smart contract or not.
             - Our modifications to the APIs will ensure that all the transactions, communication or any interaction otherwise involving our eSIM product is secure and encrypted.
 
-# Establishing secure connection to network
+# 3) Establishing secure connection to network
 
-### Telecom Network
+### a) Telecom Network
 
 - The device sends a request to the eSIM provider to register on a specific network.
     - The request is sent in form of device identifying network credentials.
@@ -85,7 +87,7 @@ The protocols that are involved in this process are:
 - HTTPS (Hypertext Transfer Protocol Secure): This is the protocol used for secure communication between the device, the eSIM provider, and the SMDP. It ensures that all data transmissions are encrypted and secure.
 - GSMA Remote SIM Provisioning Architecture (RSP-A): This is a technical architecture developed by the GSMA (GSM Association) that defines the standards and protocols for remote provisioning of eSIMs.
 
-### Blockchain Network
+### b) Blockchain Network
 
 - Connection to an Ethereum node to communicate with the Ethereum blockchain network.
     - Choose an Ethereum client implementation that fits in the tech stack.
