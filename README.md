@@ -100,16 +100,12 @@ The protocols that are involved in this process are:
 
 ## Theoretical
 
-- How to fetch user data from the blockchain without internet connectivity?
+- Create a communication protocol that can uses the ZK identity and existing network infrastructure to connect two users.
 - How to make the Security Layer fool proof, the Security APIs?
-- How to establishing a secure connection to blockchain network?
 - How to serve a cryptographic wallet address that has the allowance of connectivity and execution of transactions on multiple blockchain?
-- How to ensure the scalability of the blockchain network while maintaining its security?
-- How to maintain the integrity of smart contracts on the blockchain network?
 - How to ensure interoperability between different blockchain networks?
 - How to handle network congestion on the blockchain network?
 - How to maintain data consistency across the blockchain network?
 - How to ensure regulatory compliance while using a decentralized platform like blockchain?
-- How to prevent fraud and malicious attacks on the blockchain network?
 
 ## Implementation
