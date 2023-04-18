@@ -108,4 +108,21 @@ The protocols that are involved in this process are:
 - How to maintain data consistency across the blockchain network?
 - How to ensure regulatory compliance while using a decentralized platform like blockchain?
 
-## Implementation
+## Practical  
+- Scalability and latency: Ensuring that the blockchain-powered eSIM solution can handle a large number of users and transactions without affecting the performance and latency of the network.
+
+- Integration with existing telecom infrastructure: Developing a seamless integration process for telecom operators to adopt the new blockchain-powered eSIM solution, without causing disruption to their existing services and infrastructure.
+
+- User privacy and data protection: Ensuring that user data is protected and private, even when transmitted through a decentralized network.
+
+- Device compatibility: Ensuring that the solution is compatible with a wide range of devices, including different operating systems and hardware configurations.
+
+- Security and fraud prevention: Implementing robust security measures to prevent unauthorized access, data breaches, and fraud.
+
+- Regulatory compliance and legal challenges: Navigating the complex legal landscape surrounding blockchain technology and eSIMs, and ensuring that the solution complies with relevant regulations in different jurisdictions.
+
+- User adoption and education: Encouraging users to adopt the new blockchain-powered eSIM solution and educating them about the benefits, features, and functionality.
+
+- Ecosystem development and collaboration: Fostering collaboration and partnerships with key stakeholders, including telecom operators, device manufacturers, and app developers, to create a robust and thriving ecosystem for the blockchain-powered eSIM solution.
+
+- Network resiliency and redundancy: Ensuring that the decentralized network can withstand node failures, cyberattacks, and other potential threats without causing service disruptions.
