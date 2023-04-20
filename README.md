@@ -1,4 +1,8 @@
-# Blockchain-Powered-eSIM
+As the world becomes increasingly interconnected, the demand for seamless and secure communication is paramount.  
+The introduction of eSIM technology has revolutionized the way we connect our devices to telecom networks, offering flexibility, convenience, and improved security.  
+But with the ever-evolving digital landscape, there's always room for innovation, and blockchain technology is poised to take eSIMs to the next level.  
+# Blockchain-Powered-eSIM. 
+A blockchain-powered eSIM is an advanced form of eSIM technology that leverages the power of decentralized blockchain networks to enhance security, privacy, and functionality. This innovative approach does not require users to trust a single telecom provider for their personal information and activity. By integrating blockchain into the eSIM ecosystem, we can create a more secure and robust communication infrastructure.
 
 ## - What is the product?
     - This is not a stand alone product, we want to deliver an alternate product to telecom network providers who already carry eSIM infrastructure and provide eSIM to end users.
@@ -9,8 +13,9 @@
 ## Three main touchpoints:
 
 # 1) User Authentication/Onboarding
+The first step for users is to purchase an eSIM from their telecom provider by providing their KYC (Know Your Customer) information and a preferred wallet address. In the backend, the user's data is used to generate a unique Zero-Knowledge (ZK) identity, which is essential for communication protocols. This process disconnects user identification from user activity, enhancing privacy and security.  
 
-- First step user need to take to avail this service
+- First step user need to avail this service
     - User will buy an eSIM from existing telecom operators by providing their KYC and preferred wallet address(if they have one) and that’s it!
 - What happens in the backend?
     - We’ll provide a portal to the telecom operator where the user will provide the above two information.
@@ -30,6 +35,7 @@ The current communication technology that allows communication between two users
 Now that we know what kinds of network packets we need to create as part of this communication protocol, we move to the device.
 
 # 2) Establishing secure connection to device through LPA
+The Local Profile Assistant (LPA) is a software component that runs on the device and interacts with the eSIM chip. It retrieves the user's ZK identity from the blockchain and securely stores it on the eUICC module. The LPA is also responsible for managing eSIM profiles, communication plans, and blockchain services through a user interface called the LUI.  
 
 - The Local Profile Assistant (LPA),
          A software component that runs on the device and interacts with eSIM chip.
@@ -59,6 +65,7 @@ Now that we know what kinds of network packets we need to create as part of this
             - Our modifications to the APIs will ensure that all the transactions, communication or any interaction otherwise involving our eSIM product is secure and encrypted.
 
 # 3) Establishing secure connection to network
+To establish a secure connection, the LPA sends a request to the eSIM provider to download the network profile onto the eSIM chip. The process involves several protocols such as Remote SIM Provisioning (RSP), Subscription Manager Data Preparation (SMDP), and GSMA Remote SIM Provisioning Architecture (RSP-A). Additionally, the solution connects to an Ethereum node for communication with the blockchain network.  
 
 ### a) Telecom Network
 
@@ -125,4 +132,16 @@ The protocols that are involved in this process are:
 
 - Ecosystem development and collaboration: Fostering collaboration and partnerships with key stakeholders, including telecom operators, device manufacturers, and app developers, to create a robust and thriving ecosystem for the blockchain-powered eSIM solution.
 
-- Network resiliency and redundancy: Ensuring that the decentralized network can withstand node failures, cyberattacks, and other potential threats without causing service disruptions.
+- Network resiliency and redundancy: Ensuring that the decentralized network can withstand node failures, cyberattacks, and other potential threats without causing service disruptions.  
+
+# Key Benefits of Blockchain-Powered eSIM
+
+Enhanced Security and Privacy: By leveraging ZK identities and decentralized networks, blockchain-powered eSIMs offer a more secure and private communication experience for users.
+
+Interoperability: Blockchain technology enables seamless integration with various blockchain networks, allowing users to access multiple services across different platforms.
+
+Trustless Environment: By disconnecting user identification from user activity, users can enjoy network services without having to trust a single telecom provider with their personal information.
+
+Regulatory Compliance: Blockchain-powered eSIMs can be designed to ensure compliance with relevant regulations, while still offering the benefits of decentralization.
+
+Scalability and Innovation: Integrating blockchain into the eSIM ecosystem paves the way for future innovations in communication technology, enabling the development of new services and applications.
