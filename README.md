@@ -35,7 +35,7 @@ The current communication technology that allows communication between two users
 Now that we know what kinds of network packets we need to create as part of this communication protocol, we move to the device.
 
 # 2) Establishing secure connection to device through LPA
-The Local Profile Assistant (LPA) is a software component that runs on the device and interacts with the eSIM chip. It retrieves the user's ZK identity from the blockchain and securely stores it on the eUICC module. The LPA is also responsible for managing eSIM profiles, communication plans, and blockchain services through a user interface called the LUI.  
+The Local Profile Assistant (LPA) is a software component that runs on the device and interacts with the eSIM chip. It retrieves the user's ZK identity from the blockchain and securely stores it on the eUICC module. Coupling the eSIM Unique ID (EID) with a cryptographic wallet i.e, _associating a cryptographic wallet with a person in a similar manner a person is associated with a mobile number_. The LPA is also responsible for managing eSIM profiles, communication plans, and blockchain services through a user interface called the LUI.  
 
 - The Local Profile Assistant (LPA),
          A software component that runs on the device and interacts with eSIM chip.
@@ -103,6 +103,36 @@ The protocols that are involved in this process are:
     - Connect to the Ethereum node by specifying the IP address or domain name of the node and the port number to use.
     - Authentication and authorization the connection before the establishment of communication with the Ethereum network.
 
+# Some of the notable UI and UX changes include:
+  
+When using a blockchain-powered eSIM enabled mobile device, users can expect some changes in the user interface (UI) and user experience (UX) compared to traditional eSIM and mobile devices. These changes are primarily focused on providing users with improved security, privacy, and access to decentralized services.
+
+1. Local User Interface (LUI): The LUI is a dedicated application that allows users to manage their eSIM profiles, communication plans, and blockchain services. This provides a centralized hub for users to interact with the various features offered by the blockchain-powered eSIM(Exisitng LUI features + Management of Wallet and Blockchain Network).
+
+2. Wallet Integration: Users will have access to ("an integrated digital wallet" or "management of existing digital wallet") within the LUI, allowing them to manage their digital assets, such as cryptocurrencies or tokens on different chains, and interact with decentralized applications (DApps) and services at device system level .
+
+3. Authentication and Authorization: The onboarding process for blockchain-powered eSIMs will involve a Zero-Knowledge (ZK) identity management which will probably follow the fetaures of Biomentric Identification, which enhances user privacy by disconnecting user identification from user activity. Users may need to go through additional authentication steps when accessing certain services or applications to ensure secure access. 
+
+4. Access to Decentralized Services:  The LUI will provide users with access to various decentralized services and applications, which may differ from the traditional app store experience as accessing decentralized services requires the users to sign a request with their digital wallet. This can include browsing decentralized app stores or directly interacting(by executing transaction or signing messages or querying on chain data) with DApps and services through the LUI. Interacting with Dapps will be much easier with device level authentication i.e, using biometric authentication while signing requests for connection to dapps or exectuion of transactions as users are already associated with a wallet in some way.
+
+5. Enhanced Security Indicators: The UI will likely include visual indicators and prompts that inform users about the security and privacy features provided by the blockchain-powered eSIM, such as secure connections, encryption status, and decentralized service access.
+
+6. Network Selection and Management: Users will be able to seamlessly switch between different: 
+    a. Telecom network,
+        through the LUI , improving the global roaming experience without the need for physical SIM cards.
+    b. Blockchain network,
+        through LUI features, my personal imagination of interface for this functionality looks like this:
+        ![Device UI](https://user-images.githubusercontent.com/75042859/236062308-476baf2e-904f-4517-b847-1ccaeeefcdb2.png)
+
+
+7. Customization and Personalization: The LUI may offer customization options for users to personalize their experience, such as selecting preferred blockchain networks, setting up alerts or notifications related to digital assets, or configuring privacy settings.
+
+8. Simplified Cross-border Payments: Users will be able to initiate secure and efficient cross-border payments directly from their devices, with the UI providing an easy-to-use interface for managing and executing these transactions, Using Biometric authentication for transaction confirmations.
+
+9. Integrated Support and Education: The LUI may include built-in support and educational resources to help users understand the features, benefits, and functionality of the blockchain-powered eSIM and the decentralized services it enables.
+
+The UI and UX changes in a blockchain-powered eSIM enabled mobile device are designed to provide users with a seamless and secure experience that leverages the benefits of decentralized networks and services. This will offer users greater control over their personal information and digital assets while enabling them to access a wide range of innovative applications and services.
+
 # Challenges
 
 ## Theoretical
@@ -136,36 +166,36 @@ The protocols that are involved in this process are:
 
 # Key Benefits of Blockchain-Powered eSIM
 
-Enhanced Security and Privacy: By leveraging ZK identities and decentralized networks, blockchain-powered eSIMs offer a more secure and private communication experience for users.
+- Enhanced Security and Privacy: By leveraging ZK identities and decentralized networks, blockchain-powered eSIMs offer a more secure and private communication experience for users.
 
-Interoperability: Blockchain technology enables seamless integration with various blockchain networks, allowing users to access multiple services across different platforms.
+- Interoperability: Blockchain technology enables seamless integration with various blockchain networks, allowing users to access multiple services across different platforms.
 
-Trustless Environment: By disconnecting user identification from user activity, users can enjoy network services without having to trust a single telecom provider with their personal information.
+- Trustless Environment: By disconnecting user identification from user activity, users can enjoy network services without having to trust a single telecom provider with their personal information.
 
-Regulatory Compliance: Blockchain-powered eSIMs can be designed to ensure compliance with relevant regulations, while still offering the benefits of decentralization.
+- Regulatory Compliance: Blockchain-powered eSIMs can be designed to ensure compliance with relevant regulations, while still offering the benefits of decentralization.
 
-Scalability and Innovation: Integrating blockchain into the eSIM ecosystem paves the way for future innovations in communication technology, enabling the development of new services and applications.  
+- Scalability and Innovation: Integrating blockchain into the eSIM ecosystem paves the way for future innovations in communication technology, enabling the development of new services and applications.  
 
 # Potential Use Cases of Blockchain-Powered eSIM
 
-Secure Communication: Blockchain-powered eSIMs enable secure and private communication between individuals and businesses, ensuring that sensitive information remains confidential and protected from third-party interception or monitoring.
+- Secure Communication: Blockchain-powered eSIMs enable secure and private communication between individuals and businesses, ensuring that sensitive information remains confidential and protected from third-party interception or monitoring.
 
-Decentralized IoT Devices: Blockchain technology can be used to power IoT devices, creating a decentralized network of interconnected devices that can communicate securely and efficiently. This has applications in industries such as smart cities, transportation, and supply chain management.
+- Decentralized IoT Devices: Blockchain technology can be used to power IoT devices, creating a decentralized network of interconnected devices that can communicate securely and efficiently. This has applications in industries such as smart cities, transportation, and supply chain management.
 
-Global Roaming: Blockchain-powered eSIMs can simplify the process of global roaming by allowing users to switch between network providers seamlessly and securely without the need for physical SIM cards.
+- Global Roaming: Blockchain-powered eSIMs can simplify the process of global roaming by allowing users to switch between network providers seamlessly and securely without the need for physical SIM cards.
 
-Fraud Prevention: The decentralized nature of blockchain technology makes it difficult for bad actors to manipulate or tamper with the system, reducing the risk of fraud and unauthorized access.
+- Fraud Prevention: The decentralized nature of blockchain technology makes it difficult for bad actors to manipulate or tamper with the system, reducing the risk of fraud and unauthorized access.
 
-Identity Management: Blockchain-powered eSIMs can be used for secure digital identity management, enabling users to control and protect their personal information while accessing online services.
+- Identity Management: Blockchain-powered eSIMs can be used for secure digital identity management, enabling users to control and protect their personal information while accessing online services.
 
-Digital Asset Management: Users can securely store, manage, and transfer digital assets such as cryptocurrencies or tokens using their blockchain-powered eSIM, enabling seamless integration with the digital economy.
+- Digital Asset Management: Users can securely store, manage, and transfer digital assets such as cryptocurrencies or tokens using their blockchain-powered eSIM, enabling seamless integration with the digital economy.
 
-Access to Decentralized Applications (DApps): Users can access various decentralized applications and services through their blockchain-powered eSIM, taking advantage of the growing decentralized ecosystem.
+- Access to Decentralized Applications (DApps): Users can access various decentralized applications and services through their blockchain-powered eSIM, taking advantage of the growing decentralized ecosystem.
 
-Cross-border Payments: Blockchain-powered eSIMs can facilitate secure and efficient cross-border payments, enabling users to make international transactions without incurring high fees or delays.
+- Cross-border Payments: Blockchain-powered eSIMs can facilitate secure and efficient cross-border payments, enabling users to make international transactions without incurring high fees or delays.
 
-Machine-to-Machine (M2M) Communication: Blockchain technology can be used to power secure M2M communication, enabling devices to exchange data and execute smart contracts autonomously.
+- Machine-to-Machine (M2M) Communication: Blockchain technology can be used to power secure M2M communication, enabling devices to exchange data and execute smart contracts autonomously.
 
-Disaster Recovery and Emergency Communication: In cases of natural disasters or emergencies, blockchain-powered eSIMs can provide a resilient and decentralized communication infrastructure that can withstand network failures and disruptions.
+- Disaster Recovery and Emergency Communication: In cases of natural disasters or emergencies, blockchain-powered eSIMs can provide a resilient and decentralized communication infrastructure that can withstand network failures and disruptions.
 
-By integrating blockchain technology into the eSIM ecosystem, we can unlock a wide range of potential use cases that can revolutionize the way we communicate, transact, and interact with our devices. This will not only enhance the security and privacy of our communication networks but also drive innovation and enable new applications and services in various industries.
+By integrating blockchain technology into the eSIM ecosystem, we can unlock a wide range of potential use cases that can revolutionize the way we communicate, transact, and interact with our devices. This will not only enhance the security and privacy of our communication networks but also drive innovation and enable new applications and services in various industries.  
