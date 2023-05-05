@@ -33,7 +33,8 @@ Our main challenge here is to create a communication protocol that can uses the 
 
 The current communication technology that allows communication between two users is known as Global System for Mobile Communications by using Session Initiation Protocol (SIP).
 
-Now that we know what kinds of network packets we need to create as part of this communication protocol, we move to the device.
+Now that we know what kinds of network packets we need to create as part of this communication protocol, we move to the device.  
+### Working on the first touchpoint [ZusK - Zero User Knowledge KYC Protocol for eSIM/telecom-network providers](https://github.com/ArpitxGit/ZusK)
 
 # 2) Establishing secure connection to device through LPA
 The Local Profile Assistant (LPA) is a software component that runs on the device and interacts with the eSIM chip. It retrieves the user's ZK identity from the blockchain and securely stores it on the eUICC module. Coupling the eSIM Unique ID (EID) with a cryptographic wallet i.e, _associating a cryptographic wallet with a person in a similar manner a person is associated with a mobile number_. The LPA is also responsible for managing eSIM profiles, communication plans, and blockchain services through a user interface called the LUI.  
